@@ -10,9 +10,8 @@
     <depend_allow_string> --dependency=afterany:jobid</depend_allow_string>
     <depend_separator>,</depend_separator>
     <walltime_format>%H:%M:%S</walltime_format>
-    <!-- replace $USER with your username -->
-    <batch_mail_flag>--mail-user=$USER@msu.edu</batch_mail_flag> 
-    <batch_mail_type_flag>--mail-type=$USER@msu.edu</batch_mail_type_flag>
+    <batch_mail_flag>--mail-user</batch_mail_flag> 
+    <batch_mail_type_flag>--mail-type</batch_mail_type_flag>
     <batch_mail_type>end</batch_mail_type>
     <submit_args>
       <argument> --time $JOB_WALLCLOCK_TIME </argument>
