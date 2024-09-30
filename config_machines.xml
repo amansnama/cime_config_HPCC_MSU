@@ -116,6 +116,8 @@
             <env name="ESMFMKFILE">/opt/software-current/2023.06/x86_64/generic/software/ESMF/8.6.0-foss-2023a/lib/esmf.mk</env>
             <env name="NETCDF_PATH">/opt/software-current/2023.06/x86_64/generic/software/netCDF/4.9.2-gompi-2023a</env>
             <env name="PNETCDF_PATH">/opt/software-current/2023.06/x86_64/generic/software/PnetCDF/1.12.3-gompi-2023a</env>
+            <env name="ESMF_RUNTIME_PROFILE">ON</env>
+            <env name="ESMF_RUNTIME_PROFILE_OUTPUT">SUMMARY</env>
     </environment_variables>
 
   </machine>
